@@ -45,9 +45,9 @@ local Paragraph = MVSD:CreateParagraph({Title = "🔍 Script Search", Content = 
 local Paragraph = MVSD:CreateParagraph({Title = "⚠️ important information", Content = "This script is still in testing!, if there are any bugs or anything like that, sorry."})
 
 local MainSection = Jail:CreateSection("Lastest Update With Version")
-local Paragraph = Jail:CreateParagraph({Title = "V2.2.90", Content = "Add Support"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.2.90", Content = "Add Mismatch Version"})
 local Paragraph = Jail:CreateParagraph({Title = "V2.2.90", Content = "Changes Domain"})
-local Paragraph = Jail:CreateParagraph({Title = "V2.2.90", Content = "Fixed Bugs"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.2.90", Content = "Add Creator Hub"})
 local MainSection = Jail:CreateSection("Un-Released")
 local Paragraph = Jail:CreateParagraph({Title = "V2.3.0", Content = "More Scripts"})
 local Paragraph = Jail:CreateParagraph({Title = "V2.3.0", Content = "Fixed Bugs"})
