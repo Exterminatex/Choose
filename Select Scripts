@@ -34,7 +34,7 @@ Rayfield:Notify({
 
 local MainSection = MVSD:CreateSection("Status IOER HUB")
 local Paragraph = MVSD:CreateParagraph({Title = "🟢 | Working", Content = "IOER HUB Working Now, Checking...."})
-local Paragraph = MVSD:CreateParagraph({Title = "✅ | Succesfully", Content = "IOER HUB Has Been Loaded, Enjoy!"})
+local Paragraph = MVSD:CreateParagraph({Title = "✅ | Succesfully", Content = "IOER HUB Has Been Loaded, Created By Exterminatex"})
 local MainSection = MVSD:CreateSection("IOER Hub Creator")
 local Paragraph = MVSD:CreateParagraph({Title = "🛠️ Builder", Content = "Theexterminate"})
 local Paragraph = MVSD:CreateParagraph({Title = "👨‍💻 Programmer", Content = "Theexterminate"})
@@ -43,11 +43,12 @@ local Paragraph = MVSD:CreateParagraph({Title = "💲 Support", Content = "Thete
 local Paragraph = MVSD:CreateParagraph({Title = "🔗 Link Script", Content = "pastebin.com/u/ty4rds"})
 local Paragraph = MVSD:CreateParagraph({Title = "🔍 Script Search", Content = "Youtube | Pastebin.com | Scriptblox | Rscripts | Google"})
 local Paragraph = MVSD:CreateParagraph({Title = "⚠️ important information", Content = "This script is still in testing!, if there are any bugs or anything like that, sorry."})
+
 local MainSection = Jail:CreateSection("Lastest Update With Version")
 local Paragraph = Jail:CreateParagraph({Title = "V2.2.90", Content = "Add Support"})
 local Paragraph = Jail:CreateParagraph({Title = "V2.2.90", Content = "Changes Domain"})
 local Paragraph = Jail:CreateParagraph({Title = "V2.2.90", Content = "Fixed Bugs"})
-local MainSection = Jail:CreateSection("Un-released")
+local MainSection = Jail:CreateSection("Un-Released")
 local Paragraph = Jail:CreateParagraph({Title = "V2.3.0", Content = "More Scripts"})
 local Paragraph = Jail:CreateParagraph({Title = "V2.3.0", Content = "Fixed Bugs"})
 
