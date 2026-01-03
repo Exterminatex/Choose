@@ -1,0 +1,82 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "🕹️ IOER HUB | Select Scripts 🎉",
+   LoadingTitle = "Select Scripts",
+   LoadingSubtitle = "By IOER HUB",
+   ConfigurationSaving = {
+      Enabled = false,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Example Hub"
+   },
+})
+
+local MVSD = Window:CreateTab("🧍Creator Hub", nil)
+local Info = Window:CreateTab("📢 Information", nil)
+local Troll = Window:CreateTab("🖥️📱 Main Scripts", nil)
+local Jail = Window:CreateTab("📰 Change Logs", nil)
+local MainSection = Troll:CreateSection("Script Rayfield, Support for Mobile And Windows")
+
+Rayfield:Notify({
+   Title = "Notification Alert",
+   Content = "Thank You For Use This Scripts",
+   Duration = 5,
+   Image = 4483362458,
+   Actions = { -- Notification Buttons
+      Ignore = {
+         Name = "Okay!",
+         Callback = function()
+         print("The user tapped Okay!")
+      end
+   },
+},
+})
+
+local MainSection = MVSD:CreateSection("Status IOER HUB")
+local Paragraph = MVSD:CreateParagraph({Title = "🟢 | Working", Content = "IOER HUB Working Now, Checking...."})
+local Paragraph = MVSD:CreateParagraph({Title = "✅ | Succesfully", Content = "IOER HUB Has Been Loaded, Enjoy!"})
+local MainSection = MVSD:CreateSection("IOER Hub Creator")
+local Paragraph = MVSD:CreateParagraph({Title = "🛠️ Builder", Content = "Thetecnologyz"})
+local Paragraph = MVSD:CreateParagraph({Title = "👨‍💻 Programmer", Content = "Thetecnologyz"})
+local Paragraph = MVSD:CreateParagraph({Title = "💡 Idea", Content = "rex_del2"})
+local Paragraph = MVSD:CreateParagraph({Title = "🔗 Link Script", Content = "pastebin.com/u/ty4rds"})
+local Paragraph = MVSD:CreateParagraph({Title = "🔍 Script Search", Content = "Youtube | Pastebin.com | Scriptblox | Rscripts | Google"})
+local Paragraph = MVSD:CreateParagraph({Title = "⚠️ important information", Content = "This script is still in testing!, if there are any bugs or anything like that, sorry."})
+local MainSection = Jail:CreateSection("Lastest Update With Version")
+local Paragraph = Jail:CreateParagraph({Title = "V2.2.85", Content = "Add More Scripts"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.2.85", Content = "Fixed Bugs"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.2.85", Content = "Fixed print()"})
+local MainSection = Jail:CreateSection("Un-released")
+local Paragraph = Jail:CreateParagraph({Title = "V2.3.0", Content = "More Scripts"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.3.0", Content = "Fixed Bugs"})
+
+local Paragraph = Troll:CreateParagraph({Title = "✅ Working All Device", Content = "This Script Can Be Used For All Devices"})
+local Button = Troll:CreateButton({
+   Name = "Main - Scripts",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/IOERHUB/Main/refs/heads/main/Windows"))()
+   end,
+})
+
+local Button = Troll:CreateButton({
+   Name = "Main Scripts V2",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/IOERHUB/IOER-HUB-V2/refs/heads/main/Version%20V2"))()
+   end,
+})
+
+local Paragraph = Troll:CreateParagraph({Title = "Main Scripts V3", Content = "Coming Soon!"})
+
+local MainSection = Troll:CreateSection("Script Fluent, Not Support for Mobile")
+local Paragraph = Troll:CreateParagraph({Title = "⚠️ Information", Content = "Fluent Scripts Cannot Be Used on Mobile Because the Scripts Are Too Large or Designed for Windows/Laptops"})
+
+local Paragraph = Troll:CreateParagraph({Title = "Main - Scripts", Content = "Coming Soon, there is still a lot that needs to be changed"})
+local Paragraph = Troll:CreateParagraph({Title = "Main Scripts V2", Content = "Waiting... for Main - Scripts to be Completed"})
+
+local MainSection = Info:CreateSection("Rayfield Scripts - 26 Scripts")
+local Paragraph = Info:CreateParagraph({Title = "Main - Scripts", Content = "⏪ Back | 🏠 Home | 🎯 Main Scripts | 🔒 Jailbreak | 🔫 MVSD | 💪 The Strongest | 🐟 Fish It | 🏃 Evade | 🌲99 Night | 🖐️ Steal A Brainrot | ⚽ Blade Ball | 💵 Pls Donate | 👽 Area 51 | 😄 Infection Smile "})
+local Paragraph = Info:CreateParagraph({Title = "Main Scripts V2", Content = "⏪ Back | 🍇 Blox Fruits | 🏡 Brookhaven | 🧑‍🦯 Blind Shot | ⚒️ The Forge | 🔫 Flick | 👆 Race Clicker | 👵 Granny Multiplayer | 😶 GEF | 📦 One Block | ⛺ Survive On a Raft | 🎲 Aura Craft "})
+
+local MainSection = Info:CreateSection("Fluent Scripts - ?? Scripts")
+local Paragraph = Info:CreateParagraph({Title = "Main - Scripts", Content = "Coming Soon!"})
+local Paragraph = Info:CreateParagraph({Title = "Main Scripts V2", Content = "Coming Soon!"})
