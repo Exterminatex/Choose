@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "🕹️ IOER HUB | Select Scripts 🎉",
+   Name = "🏆 IOER HUB | Select Scripts 🎉",
    LoadingTitle = "Select Scripts",
    LoadingSubtitle = "By Exterminatex",
    ConfigurationSaving = {
