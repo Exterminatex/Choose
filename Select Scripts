@@ -35,6 +35,7 @@ Rayfield:Notify({
 local MainSection = MVSD:CreateSection("Status IOER HUB")
 local Paragraph = MVSD:CreateParagraph({Title = "🟢 | Working", Content = "IOER HUB Working Now, Checking...."})
 local Paragraph = MVSD:CreateParagraph({Title = "✅ | Succesfully", Content = "IOER HUB Has Been Loaded, Created By Exterminatex"})
+
 local MainSection = MVSD:CreateSection("IOER Hub Creator")
 local Paragraph = MVSD:CreateParagraph({Title = "🛠️ Builder", Content = "Theexterminate"})
 local Paragraph = MVSD:CreateParagraph({Title = "👨‍💻 Programmer", Content = "Theexterminate"})
@@ -45,12 +46,14 @@ local Paragraph = MVSD:CreateParagraph({Title = "🔍 Script Search", Content = 
 local Paragraph = MVSD:CreateParagraph({Title = "⚠️ important information", Content = "This script is still in testing!, if there are any bugs or anything like that, sorry."})
 
 local MainSection = Jail:CreateSection("Lastest Update With Version")
-local Paragraph = Jail:CreateParagraph({Title = "V2.2.90", Content = "Add Mismatch Version"})
-local Paragraph = Jail:CreateParagraph({Title = "V2.2.90", Content = "Changes Domain"})
-local Paragraph = Jail:CreateParagraph({Title = "V2.2.90", Content = "Add Creator Hub"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.3.0", Content = "Information Fluent"})
+
 local MainSection = Jail:CreateSection("Un-Released")
-local Paragraph = Jail:CreateParagraph({Title = "V2.3.0", Content = "More Scripts"})
-local Paragraph = Jail:CreateParagraph({Title = "V2.3.0", Content = "Fixed Bugs"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.3.50", Content = "More Scripts"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.3.50", Content = "Fixed Bugs"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.3.50", Content = "Relesed Version 3"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.3.50", Content = "More Detail"})
+local Paragraph = Jail:CreateParagraph({Title = "V2.3.50", Content = "Add New Tab"})
 
 local Paragraph = Troll:CreateParagraph({Title = "✅ Working All Device", Content = "This Script Can Be Used For All Devices"})
 local Button = Troll:CreateButton({
