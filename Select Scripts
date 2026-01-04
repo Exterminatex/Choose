@@ -75,7 +75,7 @@ local Paragraph = Troll:CreateParagraph({Title = "⚠️ Information", Content =
 local Paragraph = Troll:CreateParagraph({Title = "Main - Scripts", Content = "Coming Soon, there is still a lot that needs to be changed"})
 local Paragraph = Troll:CreateParagraph({Title = "Main Scripts V2", Content = "Waiting... for Main - Scripts to be Completed"})
 
-local MainSection = Info:CreateSection("Rayfield Scripts - 26 Scripts")
+local MainSection = Info:CreateSection("Rayfield Scripts - 30 Scripts")
 local Paragraph = Info:CreateParagraph({Title = "Main - Scripts", Content = "⏪ Back | 🏠 Home | 🎯 Main Scripts | 🔒 Jailbreak | 🔫 MVSD | 💪 The Strongest | 🐟 Fish It | 🏃 Evade | 🌲99 Night | 🖐️ Steal A Brainrot | ⚽ Blade Ball | 💵 Pls Donate | 👽 Area 51 | 😄 Infection Smile "})
 local Paragraph = Info:CreateParagraph({Title = "Main Scripts V2", Content = "⏪ Back | 🍇 Blox Fruits | 🏡 Brookhaven | 🧑‍🦯 Blind Shot | ⚒️ The Forge | 🔫 Flick | 👆 Race Clicker | 👵 Granny Multiplayer | 😶 GEF | 📦 One Block | ⛺ Survive On a Raft | 🎲 Aura Craft "})
 
