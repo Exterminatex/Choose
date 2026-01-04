@@ -72,8 +72,8 @@ local Paragraph = Troll:CreateParagraph({Title = "Main Scripts V3", Content = "C
 local MainSection = Troll:CreateSection("Script Fluent, Not Support for Mobile")
 local Paragraph = Troll:CreateParagraph({Title = "⚠️ Information", Content = "Fluent Scripts Cannot Be Used on Mobile Because the Scripts Are Too Large or Designed for Windows/Laptops"})
 
-local Paragraph = Troll:CreateParagraph({Title = "Main - Scripts", Content = "Coming Soon, there is still a lot that needs to be changed"})
-local Paragraph = Troll:CreateParagraph({Title = "Main Scripts V2", Content = "Waiting... for Main - Scripts to be Completed"})
+local Paragraph = Troll:CreateParagraph({Title = "Main - Scripts", Content = "Fluent Will No Longer Be Updated"})
+local Paragraph = Troll:CreateParagraph({Title = "Main Scripts V2", Content = "Fluent Will No Longer Be Updated Because IOER Hub Focuses More on Rayfiled"})
 
 local MainSection = Info:CreateSection("Rayfield Scripts - 30 Scripts")
 local Paragraph = Info:CreateParagraph({Title = "Main - Scripts", Content = "⏪ Back | 🏠 Home | 🎯 Main Scripts | 🔒 Jailbreak | 🔫 MVSD | 💪 The Strongest | 🐟 Fish It | 🏃 Evade | 🌲99 Night | 🖐️ Steal A Brainrot | ⚽ Blade Ball | 💵 Pls Donate | 👽 Area 51 | 😄 Infection Smile "})
